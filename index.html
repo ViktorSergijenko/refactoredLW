@@ -199,7 +199,7 @@
       </button>
     </div>
   </div>
-  <div class="fourth-block">
+  <div id="HowItWorks" class="fourth-block">
     <div class="container">
       <div class="block-title mb-4">
         <div>Как работает</div>
@@ -276,7 +276,7 @@
       </div>
     </div>
   </div>
-  <div class="reviews">
+  <div id="Reviews" class="reviews">
     <div class="container">
       <div class="block-title" style="width: 50%;">
         <div>Отзывы наших сытых и довольных клиентов</div>
@@ -514,7 +514,7 @@
       </div>
     </div>
   </div>
-  <div class="offers">
+  <div id="Prices" class="offers">
     <div class="container">
       <div class="row">
         <div class="col-md-4 block-title">
@@ -556,98 +556,139 @@
         </div>
       </div>
     </div>
-    <div class="eigth-block">
-      <div class="eigth-block-container">
-        <div class="eight-block-first-column">
-          <div class="eigth-block-text">
-            <div class="eigth-block-title">
-              <span>Закажи свой</span>
-              <span>первый обед</span>
+    <div class="eigth-block d-none d-lg-block">
+      <div class="container">
+        <div class="eigth-block-container">
+          <div class="eigth-block-first-column">
+            <div class="eigth-block-text">
+              <div class="eigth-block-title">
+                <span>Закажи свой</span>
+                <span>первый обед</span>
+              </div>
+              <div class="eigth-block-regular-text">
+                <span>Закажи свой первый обед в Lunch.Work и</span>
+                <span>получи десерт в подарок!</span>
+              </div>
             </div>
-            <div class="eigth-block-regular-text">
-              <span>Закажи свой первый обед в Lunch.Work и</span>
-              <span>получи десерт в подарок!</span>
+          </div>
+          <div class="eigth-block-second-column">
+            <div class="send-form">
+              <div class="form-container">
+                <div class="input-div">
+                  <input type="text" placeholder="Адрес доставки">
+                  <span class="danger-text">Вы забыли ввести адрес</span>
+                </div>
+                <div class="input-div">
+                  <input type="text" placeholder="Ваш телефон">
+                  <span class="danger-text">Вы забыли ввести адрес</span>
+                </div>
+                <div class="input-div">
+                  <input type="text" placeholder="Ваш E-mail">
+                  <span class="danger-text">Вы забыли ввести адрес</span>
+                </div>
+
+                <hr class="rectangle pt-2">
+
+                <div class="input-div">
+                  <input type="text" placeholder="Название компании">
+                  <span class="danger-text">Вы забыли ввести адрес</span>
+                </div>
+                <div class="input-div">
+                  <input type="text" placeholder="Примерное кол-во коллег">
+                  <span class="danger-text">Вы забыли ввести адрес</span>
+                </div>
+                <div class="input-div pt-4">
+                  <div class="eigth-block-action-button">
+                    <button class="button1">Отправить</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="eight-block-second-column">
+      </div>
+    </div>
+    
+    <div class="eigth-block-mobile d-block d-lg-none">
+      <div class="container">
+        <div class="block-title">
+          Закажи свой первый обед
+        </div>
+        <div class="bonus">Закажи свой первый обед в Lunch.Work и получи десерт в подарок!</div>
+        <div class="eigth-block-second-column">
           <div class="send-form">
-            <div class="input-div">
-              <input type="text" placeholder="Адрес доставки">
-              <span class="danger-text">Вы забыли ввести адрес</span>
-            </div>
-            <div class="input-div">
-              <input type="text" placeholder="Ваш телефон">
-              <span class="danger-text">Вы забыли ввести адрес</span>
-            </div>
-            <div class="input-div">
-              <input type="text" placeholder="Ваш E-mail">
-              <span class="danger-text">Вы забыли ввести адрес</span>
-            </div>
-            <div class="input-div">
-              <div class="rectangle"></div>
-            </div>
-            <div class="input-div">
-              <input type="text" placeholder="Название компании">
-              <span class="danger-text">Вы забыли ввести адрес</span>
-            </div>
-            <div class="input-div">
-              <input type="text" placeholder="Примерное кол-во коллег">
-              <span class="danger-text">Вы забыли ввести адрес</span>
-            </div>
-            <div class="input-div">
-              <div class="eigth-block-action-button">
-                <button class="button1">Отправить</button>
+            <div class="form-container">
+              <div class="input-div">
+                <input type="text" placeholder="Адрес доставки">
+                <span class="danger-text">Вы забыли ввести адрес</span>
+              </div>
+              <div class="input-div">
+                <input type="text" placeholder="Ваш телефон">
+                <span class="danger-text">Вы забыли ввести адрес</span>
+              </div>
+              <div class="input-div">
+                <input type="text" placeholder="Ваш E-mail">
+                <span class="danger-text">Вы забыли ввести адрес</span>
+              </div>
+
+              <hr class="rectangle pt-2">
+
+              <div class="input-div">
+                <input type="text" placeholder="Название компании">
+                <span class="danger-text">Вы забыли ввести адрес</span>
+              </div>
+              <div class="input-div">
+                <input type="text" placeholder="Примерное кол-во коллег">
+                <span class="danger-text">Вы забыли ввести адрес</span>
+              </div>
+              <div class="input-div pt-4">
+                <div class="eigth-block-action-button">
+                  <button class="button1">Отправить</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
-    <div class="eigth-block-mobile">
-      <div class="eigth-block-mobile-title">
-        <span>Закажи свой</span>
-        <span>первый обед</span>
-      </div>
-      <div class="eigth-block-mobile-text">
-        <span>Закажи свой первый обед</span>
-        <span>в Lunch.Work и получи</span>
-        <span>десерт в подарок!</span>
-      </div>
-      <div class="eigth-block-mobile-form">
-        <form class="mobile-send-form" method="post">
-            <div class="input-div-mobile">
-                <input type="text" placeholder="Адрес доставки" asp-for="DestinationAddress">
-                <span class="danger-text"></span>
+
+    <footer>
+      <div class="container">
+        <div class="row footer-desktop">
+          <div class="col-md-4">
+            <div class="logo-text">
+              LUNCH.
+              <br>WORK
             </div>
-            <div class="input-div-mobile">
-                <input type="text" placeholder="Ваш телефон" asp-for="MobileNumber">
-                <span class="danger-text"></span>
-            </div>
-            <div class="input-div-mobile">
-                <input type="text" placeholder="Ваш E-mail" asp-for="Email" />
-                <span class="danger-text"></span>
-            </div>
-          <div class="input-div-mobile">
-            <div class="rectangle"></div>
           </div>
-          <div class="input-div-mobile">
-              <input type="text" placeholder="Название компании" asp-for="CompanyName">
-              <span class="danger-text"></span>
+          <div class="col-md-4 text-center">
+            <a href="tel:+37129460406">+371 29 460 406</a>
           </div>
-          <div class="input-div-mobile">
-              <input type="text" placeholder="Примерное кол-во коллег" asp-for="EmployeeAmount">
-              <span class="danger-text"></span>
+          <div class="col-md-4 text-right">
+            <a href="#">
+              Мы в facebook
+              <img src="./svg/facebook-icon.svg" alt="Facebook">
+            </a>
           </div>
-          <div class="input-div-mobile">
-              <div class="eigth-block-action-button-mobile">
-                  <button action="infopost" id="submit" type="submit" class="button2">Отправить</button>
+        </div>
+        <div class="footer-mobile">
+          <hr class="divider">
+          <div class="footer-column-container">
+            <div class="left-column">
+              <div>
+                <a href="tel:+37129460406">+371 29 460 406</a>
               </div>
+            </div>
+            <div class="right-column">
+              <a href="#">
+                Мы в facebook
+                <img src="./svg/facebook-icon.svg" alt="Facebook">
+              </a>
+            </div>
           </div>
-        </form>
+        </div>
       </div>
-    </div>
+    </footer>
 
   <script src="glider.min.js"></script>
   <script>
