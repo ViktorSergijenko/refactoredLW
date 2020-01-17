@@ -6,21 +6,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script>(function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', '');</script>
 
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-  <link rel="stylesheet" href="css/glider.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/FirstBlock/first-block.css">
   <link rel="stylesheet" href="css/SecondBlock/second-block.css">
   <link rel="stylesheet" href="css/ThirdBlock/third-block.css">
+  <link rel="stylesheet" href="css/SixthBlock/sixth-block.css">
+  <link rel="stylesheet" href="css/glider.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- <link rel="stylesheet" href="css/glider.css"> -->
 
@@ -52,68 +56,58 @@
     };
   </script>
   <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
-  <script src="glider.min.js"></script>
-  <script>
-    new Glider(document.querySelector('.glider'), {
-      type: 'carousel',
-      slidesToShow: 1,
-      draggable: true,
-      gap: 20,
-      dots: '#dots',
-    })
-  </script>
 
   <div class="first-block">
-   <div class="first-block-container">
-     <div class="header">
-       <div class="header-title">
-         <span>LUNCH.</span>
-         <span>WORK</span>
-       </div>
-       <div class="navigation">
-        <span>Меню</span>
-        <span>Цены</span>
-        <span>Как это работает</span>
-        <span>Отзывы</span>
-       </div>
-       <div class="header-buttons">
-        <button class="">
-          <span>Войти</span>
-        </button>
-        <button class="button">
-          <span cla>Регистрация</span>
-        </button>
-       </div>
-     </div>
-     <div class="first-block-row">
-       <div class="first-block-text-column">
-         <div class="first-block-text-title">
-          <span>Вкусный горячий обед прямо к тебе в офис!</span>
-         </div>
-         <div class="first-block-regular-text">
-          <span>Домашняя еда по доступным ценам, что может быть лучше?
-          Наше меню обновляется каждый день. В нем ты найдешь
-          комплексные обеды, супы, салаты, вегетарианские
-          комплекты и десерты</span>
-         </div>
-         <div class="first-block-button">
-          <button class="button">
-            <span cla>Хочу вкусный обед</span>
+    <div class="first-block-container">
+      <div class="header">
+        <div class="header-title">
+          <span>LUNCH.</span>
+          <span>WORK</span>
+        </div>
+        <div class="navigation">
+          <span>Меню</span>
+          <span>Цены</span>
+          <span>Как это работает</span>
+          <span>Отзывы</span>
+        </div>
+        <div class="header-buttons">
+          <button class="">
+            <span>Войти</span>
           </button>
-         </div>
-       </div>
-       <div class="first-block-price-column">
-         <span class="price-text">всего за <span class="price-number">3.50 EUR</span></span>
-       </div>
-     </div>
-   </div>
+          <button class="button">
+            <span cla>Регистрация</span>
+          </button>
+        </div>
+      </div>
+      <div class="first-block-row">
+        <div class="first-block-text-column">
+          <div class="first-block-text-title">
+            <span>Вкусный горячий обед прямо к тебе в офис!</span>
+          </div>
+          <div class="first-block-regular-text">
+            <span>Домашняя еда по доступным ценам, что может быть лучше?
+              Наше меню обновляется каждый день. В нем ты найдешь
+              комплексные обеды, супы, салаты, вегетарианские
+              комплекты и десерты</span>
+          </div>
+          <div class="first-block-button">
+            <button class="button">
+              <span cla>Хочу вкусный обед</span>
+            </button>
+          </div>
+        </div>
+        <div class="first-block-price-column">
+          <span class="price-text">всего за <span class="price-number">3.50 EUR</span></span>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="first-block-mobile">
     <div class="first-block-container">
       <div class="header-mobile">
         <div class="header-title-mobile">
-            <span>LUNCH.</span>
-            <span>WORK</span>
+          <span>LUNCH.</span>
+          <span>WORK</span>
         </div>
         <div class="header-buttons-mobile">
           <button class="button"><span>Войти и заказать</span></button>
@@ -127,7 +121,8 @@
           <span class="price-text-mobile">всего за <span class="price-number-mobile">3.50 EUR</span></span>
         </div>
         <div class="first-block-text-mobile">
-          Домашная еда по низким ценам, что может быть лучше? Наше меню обновляется каждый день. В нем вы найдете: Комплексные обеды, Супы, Салаты, Вегетарианские комплексы и даже сладкие Десерты
+          Домашная еда по низким ценам, что может быть лучше? Наше меню обновляется каждый день. В нем вы найдете:
+          Комплексные обеды, Супы, Салаты, Вегетарианские комплексы и даже сладкие Десерты
         </div>
       </div>
       <div class="first-block-button-mobile">
@@ -141,15 +136,16 @@
     <div class="second-block-text-column">
       <div class="second-block-text-title">
         <span>Бесплатная доставка</span>
-       </div>
-       <div class="second-block-regular-text">
-        <span>Lunch.Work доставляет обеды по Риге и окрестностям бесплатно. Мы постоянно расширяем наши маршруты, чтобы обслужить максимальное количество клиентов.</span>
-       </div>
-       <div class="second-block-button">
+      </div>
+      <div class="second-block-regular-text">
+        <span>Lunch.Work доставляет обеды по Риге и окрестностям бесплатно. Мы постоянно расширяем наши маршруты, чтобы
+          обслужить максимальное количество клиентов.</span>
+      </div>
+      <div class="second-block-button">
         <button class="button">
           <span cla>Хочу вкусный обед</span>
         </button>
-       </div>
+      </div>
     </div>
   </div>
   <div class="second-block-mobile">
@@ -157,7 +153,8 @@
       <span>Бесплатная и быстрая доставка</span>
     </div>
     <div class="second-block-regular-text-mobile">
-      <span>Не забудьте проверить уже существующие маршруты доставки. А если вас нет в уже существующем маршруте - будьте уверены, что заказывать будут пять и более человек.</span>
+      <span>Не забудьте проверить уже существующие маршруты доставки. А если вас нет в уже существующем маршруте -
+        будьте уверены, что заказывать будут пять и более человек.</span>
     </div>
     <div class="second-block-mobile-image">
       <img src="./svg/second-block-image-mobile.svg" alt="">
@@ -166,21 +163,22 @@
       <button class="button">
         <span cla>Хочу стать клиентом</span>
       </button>
-     </div>
+    </div>
   </div>
   <div class="third-block">
     <div class="third-block-text-column">
       <div class="third-block-text-title">
         <span>Новое меню – каждый день!</span>
-       </div>
-       <div class="third-block-regular-text">
-        <span>Нет ничего хуже однообразия. С нами тебя ждет разнообразная, домашняя еда каждый день. Ты можешь сам сложить свой комплект или выбрать только одно блюдо. Мы позаботились также о выборе для вегетарианцев.</span>
-       </div>
-       <div class="third-block-button">
+      </div>
+      <div class="third-block-regular-text">
+        <span>Нет ничего хуже однообразия. С нами тебя ждет разнообразная, домашняя еда каждый день. Ты можешь сам
+          сложить свой комплект или выбрать только одно блюдо. Мы позаботились также о выборе для вегетарианцев.</span>
+      </div>
+      <div class="third-block-button">
         <button class="button">
           <span cla>Посмотреть меню</span>
         </button>
-       </div>
+      </div>
     </div>
     <div class="third-block-image-column">
     </div>
@@ -199,9 +197,468 @@
       <button class="button">
         <span cla>Посмотреть меню</span>
       </button>
-     </div>
+    </div>
   </div>
+  <div class="fourth-block">
+    <div class="container">
+      <div class="block-title mb-4">
+        <div>Как работает</div>
+        <div>Lunch.Work</div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-6 instruction-block">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./svg/svg5.svg" alt="">
+            </div>
+            <div class="col-md-6">
+              <div class="mb-4 step-nr">
+                <img src="./svg/1.svg" alt="First step">
+              </div>
+              <div class="step-text">
+                <strong>Заполни контактную форму</strong>, и мы зарегистрируем тебя в системе. Возможно сразу подключить
+                весь офис, при
+                этом каждый делает заказ индивидуально.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 instruction-block">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./svg/svg6.svg" alt="">
+            </div>
+            <div class="col-md-6">
+              <div class="mb-4 step-nr">
+                <img src="./svg/2.svg" alt="First step">
+              </div>
+              <div class="step-text">
+                Каждый день до 10:20 утра ты можешь <strong>оформить заказ в системе</strong>, оплачивая его онлайн или
+                наличными курьеру
+                во время доставки
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 instruction-block">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./svg/svg8.svg" alt="">
+            </div>
+            <div class="col-md-6">
+              <div class="mb-4 step-nr">
+                <img src="./svg/3.svg" alt="First step">
+              </div>
+              <div class="step-text">
+                <strong>Ты не тратишь драгоценное время</strong> на стояние в очередях в кафе и можешь проводить обед
+                с пользой.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 instruction-block">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./svg/svg7.svg" alt="">
+            </div>
+            <div class="col-md-6">
+              <div class="mb-4 step-nr">
+                <img src="./svg/4.svg" alt="First step">
+              </div>
+              <div class="step-text">
+                В назначенное время ты получаешь <strong>теплый обед</strong> прямо к себе в офис.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="reviews">
+    <div class="container">
+      <div class="block-title" style="width: 50%;">
+        <div>Отзывы наших сытых и довольных клиентов</div>
+      </div>
+      <div style="padding-top: 5%;">
+        <div class="glider-contain multiple">
+          <div class="glider">
+            <div>
+              <div class="fb-post" data-href="https://www.facebook.com/anna.antipova.31/posts/10157980554209684"
+                data-width="500" data-show-text="true">
+                <blockquote cite="https://developers.facebook.com/anna.antipova.31/posts/10157980554209684"
+                  class="fb-xfbml-parse-ignore">
+                  <p>
+                    Очень всё понравилось, 5+ за качество, 5+ за время доставки.
 
+                    Все на высшем уровне, аккуратно и самое главное -вкусно.
+
+                    Очень рада,что нашла Вашу компанию,
+
+                    Спасибо!
+                  </p>Опубликовано <a href="https://www.facebook.com/anna.antipova.31">Anna Fedina</a>&nbsp;<a
+                    href="https://developers.facebook.com/anna.antipova.31/posts/10157980554209684">
+                    Пятница, 18 октября
+                    2019 г.
+                  </a>
+                </blockquote>
+              </div>
+            </div>
+            <div>
+              <div class="fb-post" data-href="https://www.facebook.com/alexandra.leonova/posts/10216086729502446"
+                data-width="500" data-show-text="true">
+                <blockquote cite="https://developers.facebook.com/alexandra.leonova/posts/10216086729502446"
+                  class="fb-xfbml-parse-ignore">
+                  <p>
+                    Разнообразный выбор блюд, включая хотя бы одну вегетарианскую опцию, своевременная доставка,
+                    приятные
+                    цены, а самое главное, по-домашнему вкусная еда!
+                  </p>Опубликовано <a href="#" role="button">
+                    Александрой
+                    Авитан
+                  </a>&nbsp;<a href="https://developers.facebook.com/alexandra.leonova/posts/10216086729502446">
+                    Среда, 31 июля 2019
+                    г.
+                  </a>
+                </blockquote>
+
+              </div>
+            </div>
+            <div>
+              <div class="fb-post" data-href="https://www.facebook.com/aboltinja/posts/2949509058409547"
+                data-width="350" data-show-text="true">
+                <blockquote cite="https://developers.facebook.com/aboltinja/posts/2949509058409547"
+                  class="fb-xfbml-parse-ignore">
+                  <p>
+                    Garšīgi, piegāde laikā, visi paēduši...
+                    Komunikācija ir vairāk ka laba, iesaku sūtīt šeit pusdienas!
+                  </p>Опубликовано <a href="https://www.facebook.com/aboltinja">Kristīne Āboltiņa</a>&nbsp;<a
+                    href="https://developers.facebook.com/aboltinja/posts/2949509058409547">
+                    Пятница, 23 августа 2019
+                    г.
+                  </a>
+                </blockquote>
+              </div>
+            </div>
+            <div>
+              <div class="fb-post" data-href="https://www.facebook.com/sergey.kozlov.52/posts/2341229092620229"
+                data-width="500" data-show-text="true">
+                <blockquote cite="https://developers.facebook.com/sergey.kozlov.52/posts/2341229092620229"
+                  class="fb-xfbml-parse-ignore">
+                  <p>Вкусно, по домашнему, есть выбор.</p>Опубликовано <a href="#" role="button">
+                    Сергеем
+                    Козловым
+                  </a>&nbsp;<a href="https://developers.facebook.com/sergey.kozlov.52/posts/2341229092620229">
+                    Вторник, 23 июля 2019
+                    г.
+                  </a>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div id="dots" class="glider-dots" style="padding-top: 20px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sixth-block">
+    <div class="sixth-block-container">
+      <div class="sixth-block-title">
+        <span>Lunch.Work - это удобно и выгодно</span>
+      </div>
+      <div class="sixth-block-first-row-with-items">
+        <div class="sixth-block-item">
+          <div class="sixth-block-item-image">
+            <img src="./svg/cost.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title">
+            <span>Доступная цена</span>
+          </div>
+          <div class="sixth-block-item-text">
+            <span>Мы покупаем продукты по оптовым ценам напрямую у хозяйств и готовим в больших объемах. Поэтому наши готовые блюда стоят не дороже, чем продукты в магазине. Только ты не тратишь время на готовку!</span>
+          </div>
+        </div>
+        <div class="sixth-block-item">
+          <div class="sixth-block-item-image">
+            <img src="./svg/tray.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title">
+            <span>Очень вкусно</span>
+          </div>
+          <div class="sixth-block-item-text">
+            <span>Это то, что мы каждый день слышим от благодарных клиентов. Наш шеф-повар каждый день готовит новые вкусные блюда. Быстрая доставка и специальная экологичная упаковка позволяют сохранять блюда горячими. А большие порции никого не оставят голодным!</span>
+          </div>
+        </div>
+        <div class="sixth-block-item">
+          <div class="sixth-block-item-image">
+            <img src="./svg/time.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title">
+            <span>Экономия времени и денег</span>
+          </div>
+          <div class="sixth-block-item-text">
+            <span>Мы доставим еду в офис, а у тебя остается больше времени на отдых в обеденный перерыв. Больше никаких очередей в кафе и переплат за ресторанную еду!</span>
+          </div>
+        </div>
+      </div>
+      <div class="sixth-block-second-row-with-items">
+        <div class="sixth-block-second-item">
+          <div class="sixth-block-second-item-image">
+            <img src="./svg/shield.svg" alt="">
+          </div>
+          <div class="sixth-block-second-item-title">
+            <span>Безопасность</span>
+          </div>
+          <div class="sixth-block-second-item-text">
+            <span>Мы каждый день закупаем свежие продукты у проверенных поставщиков. Наши повара работают по стандартам санинспекции, готовят в перчатках и регулярно проходят медицинское обследование.</span>
+          </div>
+        </div>
+        <div class="sixth-block-second-item">
+          <div class="sixth-block-second-item-image">
+            <img src="./svg/car.svg" alt="">
+          </div>
+          <div class="sixth-block-second-item-title">
+            <span>Удобная доставка</span>
+          </div>
+          <div class="sixth-block-second-item-text">
+            <span>Мы бесплатно доставляем готовые обеды в офис в любое место. Вы с коллегами выбираете только оформляете заказ. Оплатить заказ можно сразу на сайте или рассчитаться наличными с курьером.</span>
+          </div>
+        </div>
+        <div class="sixth-block-second-item">
+          <div class="sixth-block-second-item-image">
+            <img src="./svg/cash.svg" alt="">
+          </div>
+          <div class="sixth-block-second-item-title">
+            <span>Оплата наличными или картой</span>
+          </div>
+          <div class="sixth-block-second-item-text">
+            <span>Ты можешь оплачивать обеды онлайн при оформлении заказа или курьеру при получении. Возможен также безналичный расчет по договору с твоей компанией.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sixth-block-mobile">
+    <div class="sixth-block-container-mobile">
+      <div class="sixth-block-title-mobile">
+        <span>Lunch.Work - это удобно и выгодно</span>
+      </div>
+      <div class="sixth-block-item-mobile">
+        <div class="sixth-block-item-mobile">
+          <div class="sixth-block-item-image-mobile">
+            <img src="./svg/cost.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title-mobile">
+            <span>Доступная цена</span>
+          </div>
+          <div class="sixth-block-item-text-mobile">
+            <span>Мы покупаем продукты по оптовым ценам напрямую у хозяйств и готовим в больших объемах. Поэтому наши готовые блюда стоят не дороже, чем продукты в магазине. Только ты не тратишь время на готовку!</span>
+          </div>
+        </div>
+        <div class="sixth-block-item-mobile">
+          <div class="sixth-block-item-image-mobile">
+            <img src="./svg/tray.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title-mobile">
+            <span>Очень вкусно</span>
+          </div>
+          <div class="sixth-block-item-text-mobile">
+            <span>Это то, что мы каждый день слышим от благодарных клиентов. Наш шеф-повар каждый день готовит новые вкусные блюда. Быстрая доставка и специальная экологичная упаковка позволяют сохранять блюда горячими. А большие порции никого не оставят голодным!</span>
+          </div>
+        </div>
+        <div class="sixth-block-item-mobile">
+          <div class="sixth-block-item-image-mobile">
+            <img src="./svg/time.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title-mobile">
+            <span>Экономия времени и денег</span>
+          </div>
+          <div class="sixth-block-item-text-mobile">
+            <span>Мы доставим еду в офис, а у тебя остается больше времени на отдых в обеденный перерыв. Больше никаких очередей в кафе и переплат за ресторанную еду!</span>
+          </div>
+        </div>
+        <div class="sixth-block-item-mobile">
+          <div class="sixth-block-item-image-mobile">
+            <img src="./svg/shield.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title-mobile">
+            <span>Безопасность</span>
+          </div>
+          <div class="sixth-block-item-text-mobile">
+            <span>Мы каждый день закупаем свежие продукты у проверенных поставщиков. Наши повара работают по стандартам санинспекции, готовят в перчатках и регулярно проходят медицинское обследование.</span>
+          </div>
+        </div>
+        <div class="sixth-block-item-mobile">
+          <div class="sixth-block-item-image-mobile">
+            <img src="./svg/car.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title-mobile">
+            <span>Удобная доставка</span>
+          </div>
+          <div class="sixth-block-item-text-mobile">
+            <span>Мы бесплатно доставляем готовые обеды в офис в любое место. Вы с коллегами выбираете только оформляете заказ. Оплатить заказ можно сразу на сайте или рассчитаться наличными с курьером.</span>
+          </div>
+        </div>
+        <div class="sixth-block-item-mobile">
+          <div class="sixth-block-item-image-mobile">
+            <img src="./svg/cash.svg" alt="">
+          </div>
+          <div class="sixth-block-item-title-mobile">
+            <span>Оплата наличными или картой</span>
+          </div>
+          <div class="sixth-block-item-text-mobile">
+            <span>Ты можешь оплачивать обеды онлайн при оформлении заказа или курьеру при получении. Возможен также безналичный расчет по договору с твоей компанией.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offers">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 block-title">
+          Самые доступные бизнес-ланчи в Риге!
+        </div>
+        <div class="col-md-4 food-container">
+          <img src="./svg/soup.svg" alt="Суп" width="140" height="140">
+          <div class="food-name">Суп от
+            <span class="price-highlight">€ 0,50</span></p>
+          </div>
+        </div>
+        <div class="col-md-4 food-container">
+          <img src="./svg/salad.svg" alt="Салат" width="140" height="140">
+          <div class="food-name">Салаты от
+            <span class="price-highlight">€ 1,50</span></p>
+          </div>
+        </div>
+        <div class="col-md-4 food-container">
+          <img src="./svg/second-meal.svg" alt="Второе блюдо" width="140" height="140">
+          <div class="food-name">Вторые блюда от
+            <span class="price-highlight">€ 3,50</span></p>
+          </div>
+        </div>
+        <div class="col-md-4 food-container">
+          <img src="./svg/icecream.svg" alt="Мороженое" width="140" height="140">
+          <div class="food-name">Десерты от
+            <span class="price-highlight">€ 0,50</span></p>
+          </div>
+        </div>
+        <div class="col-md-4 food-container">
+          <img src="./svg/complex-meal.svg" alt="Комплексное блюдо" width="140" height="140">
+          <div class="food-name">Комплексные блюда от
+            <span class="price-highlight">€ 4</span>
+            <div class="food-hint">
+              Суп + второе
+            </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eigth-block">
+      <div class="eigth-block-container">
+        <div class="eight-block-first-column">
+          <div class="eigth-block-text">
+            <div class="eigth-block-title">
+              <span>Закажи свой</span>
+              <span>первый обед</span>
+            </div>
+            <div class="eigth-block-regular-text">
+              <span>Закажи свой первый обед в Lunch.Work и</span>
+              <span>получи десерт в подарок!</span>
+            </div>
+          </div>
+        </div>
+        <div class="eight-block-second-column">
+          <div class="send-form">
+            <div class="input-div">
+              <input type="text" placeholder="Адрес доставки">
+              <span class="danger-text">Вы забыли ввести адрес</span>
+            </div>
+            <div class="input-div">
+              <input type="text" placeholder="Ваш телефон">
+              <span class="danger-text">Вы забыли ввести адрес</span>
+            </div>
+            <div class="input-div">
+              <input type="text" placeholder="Ваш E-mail">
+              <span class="danger-text">Вы забыли ввести адрес</span>
+            </div>
+            <div class="input-div">
+              <div class="rectangle"></div>
+            </div>
+            <div class="input-div">
+              <input type="text" placeholder="Название компании">
+              <span class="danger-text">Вы забыли ввести адрес</span>
+            </div>
+            <div class="input-div">
+              <input type="text" placeholder="Примерное кол-во коллег">
+              <span class="danger-text">Вы забыли ввести адрес</span>
+            </div>
+            <div class="input-div">
+              <div class="eigth-block-action-button">
+                <button class="button1">Отправить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="eigth-block-mobile">
+      <div class="eigth-block-mobile-title">
+        <span>Закажи свой</span>
+        <span>первый обед</span>
+      </div>
+      <div class="eigth-block-mobile-text">
+        <span>Закажи свой первый обед</span>
+        <span>в Lunch.Work и получи</span>
+        <span>десерт в подарок!</span>
+      </div>
+      <div class="eigth-block-mobile-form">
+        <form class="mobile-send-form" method="post">
+            <div class="input-div-mobile">
+                <input type="text" placeholder="Адрес доставки" asp-for="DestinationAddress">
+                <span class="danger-text"></span>
+            </div>
+            <div class="input-div-mobile">
+                <input type="text" placeholder="Ваш телефон" asp-for="MobileNumber">
+                <span class="danger-text"></span>
+            </div>
+            <div class="input-div-mobile">
+                <input type="text" placeholder="Ваш E-mail" asp-for="Email" />
+                <span class="danger-text"></span>
+            </div>
+          <div class="input-div-mobile">
+            <div class="rectangle"></div>
+          </div>
+          <div class="input-div-mobile">
+              <input type="text" placeholder="Название компании" asp-for="CompanyName">
+              <span class="danger-text"></span>
+          </div>
+          <div class="input-div-mobile">
+              <input type="text" placeholder="Примерное кол-во коллег" asp-for="EmployeeAmount">
+              <span class="danger-text"></span>
+          </div>
+          <div class="input-div-mobile">
+              <div class="eigth-block-action-button-mobile">
+                  <button action="infopost" id="submit" type="submit" class="button2">Отправить</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  <script src="glider.min.js"></script>
+  <script>
+    new Glider(document.querySelector('.glider'), {
+      type: 'carousel',
+      slidesToShow: 1,
+      draggable: true,
+      gap: 20,
+      dots: '#dots',
+    })
+  </script>
 </body>
 
 </html>
